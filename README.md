@@ -91,20 +91,21 @@ You can add optional `<buffer>` options to the config if you'd like to flush fas
 ```
 
 ## Configuration
+The following options are configurable for the output plugin. 
 
-### host
+You can find your dataspace name by going to the [dataspaces page in Humio](https://cloud.humio.com/?page=1&search=&tab=dataspaces) and by clicking the dataspace you want to ship your logs to. Copy the value in the url that appears after `https://cloud.humio.com/`. In this example, we'll use `sandbox_12345`.
+
+Now you can grab your `ingest_token` by clicking on the three dots in the menu bar under your dataspace and then by clicking Settings. On the left hand side, click on `Ingest Tokens`. Click on the eye icon to view your `ingest_token`.
+
+Once you have the dataspace and your ingest token, you should be ready to ship to humio.
 
 ```
-host cloud.humio.com
-```
-
-### ingest_token, dataspace, path, scheme
-
-```
+host         cloud.humio.com
+port         443
 ingest_token asdf1234
-dataspace your_dataspace_name
-path /custom_path/
-scheme https
+dataspace    sandbox_12345
+scheme       https
+tags         type:firewall,firewall:home-office
 ```
 
 ## Contact
