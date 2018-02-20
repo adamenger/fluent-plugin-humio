@@ -115,13 +115,3 @@ If you have a question, [open an Issue](https://github.com/adamenger/fluent-plug
 ## Contributing
 
 Pull Requests are welcomed.
-
-## Running tests
-
-Install dev dependencies:
-
-```sh
-$ gem install bundler
-$ bundle install
-$ bundle exec rake test
-```
