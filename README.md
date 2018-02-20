@@ -8,7 +8,6 @@ Current maintainers: @adamenger
 * [Installation](#installation)
 * [Contact](#contact)
 * [Contributing](#contributing)
-* [Running tests](#running-tests)
 
 ## Requirements
 
