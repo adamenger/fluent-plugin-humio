@@ -1,7 +1,7 @@
 # Fluent::Plugin::[Humio](https://humio.com), a plugin for [Fluentd](http://fluentd.org)
 
 
-Send your logs to [Humio](https://humio.com). You'll need an enterprise install of Humio or a free account over at [cloud.humio.com](https://cloud.humio.com)
+Send your logs to [Humio](https://humio.com) from FluentD. You'll need an enterprise install of Humio or a free account over at [cloud.humio.com](https://cloud.humio.com)
 
 Current maintainers: @adamenger
 
