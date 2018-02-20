@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = Gem::Requirement.new(">= 2.0".freeze)
 
   s.add_runtime_dependency 'fluentd', '~> 1.1'
-  s.add_runtime_dependency 'httparty', '~> 0.16'
+  s.add_runtime_dependency 'httparty', '= 0.16.0'
 
 
   s.add_development_dependency 'rake', '>= 0'
