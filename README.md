@@ -101,8 +101,6 @@ host cloud.humio.com
 
 ### ingest_token, dataspace, path, scheme
 
-If you specify this option, host and port options are ignored.
-
 ```
 ingest_token asdf1234
 dataspace your_dataspace_name
